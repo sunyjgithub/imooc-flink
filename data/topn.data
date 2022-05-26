@@ -1,0 +1,14 @@
+{"userId": "u001", "itemId": "p1001", "categoryId": "c11", type: "pv", "timestamp": "2020-03-08 11:11:11"}
+{"userId": "u002", "itemId": "p1001", "categoryId": "c11", type: "pv", "timestamp": "2020-03-08 11:11:11"}
+{"userId": "u003", "itemId": "p1001", "categoryId": "c11", type: "pv", "timestamp": "2020-03-08 11:11:11"}
+{"userId": "u003", "itemId": "p1001", "categoryId": "c11", type: "cart", "timestamp": "2020-03-08 11:11:11"}
+{"userId": "u011", "itemId": "p2222", "categoryId": "c22", type: "pv", "timestamp": "2020-03-08 11:11:11"}
+{"userId": "u012", "itemId": "p2222", "categoryId": "c22", type: "pv", "timestamp": "2020-03-08 11:11:11"}
+{"userId": "u012", "itemId": "p2222", "categoryId": "c22", type: "pv", "timestamp": "2020-03-08 11:12:01"}
+{"userId": "u001", "itemId": "p1001", "categoryId": "c11", type: "pv", "timestamp": "2020-03-08 11:12:01"}
+{"userId": "u002", "itemId": "p1001", "categoryId": "c11", type: "pv", "timestamp": "2020-03-08 11:12:01"}
+{"userId": "u003", "itemId": "p1001", "categoryId": "c11", type: "pv", "timestamp": "2020-03-08 11:12:01"}
+{"userId": "u003", "itemId": "p1001", "categoryId": "c11", type: "cart", "timestamp": "2020-03-08 11:12:01"}
+{"userId": "u011", "itemId": "p2222", "categoryId": "c22", type: "pv", "timestamp": "2020-03-08 11:12:01"}
+{"userId": "u012", "itemId": "p2222", "categoryId": "c22", type: "pv", "timestamp": "2020-03-08 11:12:01"}
+{"userId": "u011", "itemId": "p2222", "categoryId": "c22", type: "pv", "timestamp": "2020-03-08 11:13:01"}
