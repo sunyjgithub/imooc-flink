@@ -7,6 +7,7 @@
 package com.imooc.flink.source;
 
 import org.apache.flink.api.common.functions.FilterFunction;
+import org.apache.flink.configuration.Configuration;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
@@ -22,6 +23,9 @@ public class SourceApp {
 
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
+        // StreamExecutionEnvironment.createLocalEnvironment();
+        // StreamExecutionEnvironment.createLocalEnvironment(3);
+        // StreamExecutionEnvironment.createLocalEnvironmentWithWebUI(new Configuration());
 
         DataStreamSource<Long> source = env.fromParallelCollection(new NumberSequenceIterator(1, 10), Long.class);
 
